@@ -9,7 +9,7 @@ manifest:
 
   remotes:
     - name: github
-      url-base: https://github.com/bengartner
+      url-base: git@github.com:bengartner
 
   projects:
     - name: examplewestproj
