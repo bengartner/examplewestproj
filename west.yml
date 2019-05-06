@@ -15,7 +15,7 @@ manifest:
     - name: examplewestproj
       path: examplewestproj
       revision: master
-    - name: exampledataset
+    - name: examplewithlfs
       path: examplewestproj/dataset
       revision: master
 
