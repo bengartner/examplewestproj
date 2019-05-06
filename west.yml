@@ -1,0 +1,23 @@
+west:
+  url: https://github.com/zephyrproject-rtos/west
+  revision: master
+
+manifest:
+  defaults:
+    remote: github
+    revision: master
+
+  remotes:
+    - name: github
+      url-base: https://github.com/bengartner
+
+  projects:
+    - name: examplewestproj
+      path: examplewestproj
+      revision: master
+    - name: exampledataset
+      path: examplewestproj/dataset
+      revision: master
+
+  self:
+    path: examplewestproj
